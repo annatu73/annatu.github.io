@@ -5,7 +5,7 @@ body {
 
        
 h1 {
-    color: #EE82EE;
+    color: palevioletred;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
@@ -13,7 +13,7 @@ h1 {
 
 section li {
     list-style: none;
-    color: #DB7093;
+    color: black;
 }
 a:link,a:visited {
     text-decoration: none;
@@ -26,7 +26,7 @@ a:link,a:visited {
 }
 
 a:hover, a:active {
-    background-color: #E6E6FA;
-    color: #483D8B;
+    background-color: black;
+    color: purple;
 
 }
