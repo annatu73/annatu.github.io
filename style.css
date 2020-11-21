@@ -13,6 +13,7 @@ h1 {
 
 section li {
     list-style: none;
+    color: white;
 }
 a:link,a:visited {
     text-decoration: none;
