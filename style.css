@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+       
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section li {
+    list-style: none;
+}
+a:link,a:visited {
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+a:hover, a:active {
+    background-color: darkgray;
+    color: black;
+
+}
