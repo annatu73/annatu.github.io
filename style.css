@@ -449,31 +449,9 @@ h3.archives, h3.resources {
     margin: 0 auto;
 }
 
-.benefits:before {
-  content: 'Apply Liberally';
-  font-size: 3em;
-  position: absolute;
-  bottom: 3.5rem;
-  text-align: center;
-  width: 100%;
-  font-family: "french-clarendon-ornamented",sans-serif;
-  text-transform: uppercase;
-  padding-bottom: 14.35rem;
-  letter-spacing: 0.03em;
-}
 
-.benefits:after {
-  content: 'And Regularly!';
-  font-size: 3em;
-  position: absolute;
-  bottom: -13rem;
-  text-align: center;
-  width: 100%;
-  font-family: "french-clarendon-ornamented",sans-serif;
-  text-transform: uppercase;
-  padding-bottom: 14.35rem;
-  letter-spacing: 0.03em;
-}
+
+
 
 .benefits p:after {
   content: '';
