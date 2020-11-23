@@ -12,8 +12,7 @@ html {
 
 .center {
   margin: auto;
-  width: 50%;
-  border: 3px solid green;
+  border: 3px #D8BFD8;
   padding: 10px;
   display: block;
   margin-left: auto;
