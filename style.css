@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.section {
+    overflow: hidden;
+}
+
+#menu {
+    width: 200px;
+    height: auto;
+    position: fixed;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    margin: 0 auto;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .5s ease-in-out 0s;
+}
+
+#nav {
+    cursor: pointer;
+    padding: 8px;
+    position: fixed;
+    z-index: 1000;
+    top: 40px;
+    right: 100px;
+    background: red;
+}
+
+.section-title {
+    width: auto !important;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    font-size: 16px;
+    line-height: 1;
+    padding: 35px;
+    white-space: nowrap;
+    transform: translate3d(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    color: #CD5C5C;
+  
+}
+
+.profile {
+    background: #000;
+    color: #fff;
+}
+
+
+
+.s {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 900;
+    display: block;
+    font-size: 30px;
+    line-height: 40px;
+    color: #FF8C00;
+    background: #4682B4;
+  
+}
+
+.s .projects .project a {
+    display: block;
+}
+
+.s .projects .project a .description {
+    position: absolute;
+    right: 0;
+    bottom: 1px;
+    left: 0;
+    overflow: hidden;
+    height: 100%;
+    padding: 15px;
+    transition: transform .4s ease 0s, opacity .4s ease 0s, -webkit-transform .4s ease 0s;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    text-align: center;
+    white-space: nowrap;
+    opacity: 0;
+    background: #F4A460;
+    color: #fff;
+    font-size: 30px;
+    line-height: 200px;
+}
+
+.s .projects .project a .scope {
+    position: absolute;
+    right: 0;
+    bottom: 1px;
+    left: 0;
+    overflow: hidden;
+    padding: 15px;
+    transition: transform .4s ease 0s, opacity 1.4s ease 0s, -webkit-transform .4s ease 0s;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    text-align: center;
+    white-space: nowrap;
+    opacity: 0;
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+
+.s .projects .project a:hover .scope {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    opacity: 1;
+}
+
+.s .projects .project a .preview {
+    display: block;
+    height: 100%;
+    transition: transform .4s ease 0s, opacity .4s ease 0s, -webkit-transform .4s ease 0s;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    text-align: center;
+    white-space: nowrap;
+    opacity: 1;
+}
+
+.s .projects .project a:hover .preview {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.s .projects .project a .preview img {
+    width: 100%;
+}
+
+.contact {
+    background: #3CB371;
+    color: black;
+}
+
+.contact h3 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    
+}
+
+.contact .pointer {
+    font-size: 120px;
+    line-height: 80px;
+}
+
+
+#nav span, #nav span::before {
+    background: #fff;
+    display: block;
+    width: 30px;
+    height: 1px;
+    transition: transform .3s ease-in-out 0s;
+}
+
+#nav span {
+    position: relative;
+    margin: 14px 0 15px 0;
+    transform: rotate(180deg);
+}
+
+#nav span::before {
+    position: absolute;
+    content: '';
+    transform: rotate(90deg);
+}
+
+#nav.open {
+    background: #FF69B4;
+}
+
+#nav.open span::before {
+    background: #FF69B4
+;
+}
+
+#nav.open span, #nav.open span::before {
+    transform: rotate(0deg);
+}
+
+
